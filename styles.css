@@ -381,15 +381,13 @@ img {
   margin: 0;
 }
 
-.publication-list,
-.project-grid {
+.publication-list {
   display: grid;
   gap: 14px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .publication-item,
-.project-card,
 .credential-grid article {
   background: var(--white);
   border: 1px solid rgba(217, 210, 196, 0.8);
@@ -397,70 +395,6 @@ img {
   box-shadow: 0 12px 40px rgba(18, 22, 20, 0.06);
   min-width: 0;
   padding: 22px;
-}
-
-.project-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  min-height: 290px;
-}
-
-.featured-project {
-  background: var(--coal);
-  color: var(--paper-strong);
-}
-
-.project-meta {
-  color: var(--teal-deep);
-  display: block;
-  font-size: 0.82rem;
-  font-weight: 850;
-  margin-bottom: 14px;
-  text-transform: uppercase;
-}
-
-.featured-project .project-meta {
-  color: var(--amber);
-}
-
-.project-card h3 {
-  font-size: 1.22rem;
-  line-height: 1.28;
-  margin: 0;
-}
-
-.project-card p {
-  color: var(--muted);
-  margin: 16px 0 22px;
-}
-
-.featured-project p {
-  color: rgba(255, 250, 240, 0.78);
-}
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: auto;
-}
-
-.project-tags span {
-  background: rgba(15, 118, 110, 0.09);
-  border-radius: 8px;
-  color: var(--teal-deep);
-  font-size: 0.78rem;
-  font-weight: 820;
-  padding: 6px 8px;
-}
-
-.featured-project .project-tags span {
-  background: rgba(255, 255, 255, 0.11);
-  color: var(--paper-strong);
 }
 
 .publication-badge {
@@ -698,7 +632,6 @@ img {
   .experience-item,
   .section-heading,
   .publication-list,
-  .project-grid,
   .split-band,
   .credential-grid,
   .contact-section {
